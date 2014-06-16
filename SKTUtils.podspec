@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = ‘SKTUtils’
+  s.name         = 'SKTUtils'
   s.version      = '0.1'
   s.summary      = 'Utils for Sprite Kit'
   s.author = {
