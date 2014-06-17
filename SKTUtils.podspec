@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = 'SKTUtils'
-  s.version      = '0.1.2'
+  s.version      = '0.1.3'
   s.summary      = 'Utils for Sprite Kit'
   s.author = {
     'http://www.raywenderlich.com/' => 'http://www.raywenderlich.com/'
   }
   s.source = {
     :git => 'https://github.com/happyjiahan/SKTUtils.git',
-    :tag => 'happyjiahanV0.1.2'
+    :tag => 'happyjiahanV0.1.3'
   }
   s.homepage    = 'http://www.raywenderlich.com/'
   s.license     = 'LICENSE'
