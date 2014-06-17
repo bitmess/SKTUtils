@@ -8,6 +8,12 @@
 
 #import "JHGameKitHelper.h"
 
+NSString *const NTF_PresentAuthenticationViewController = @"NTF_PresentAuthenticationViewController";
+NSString *const NTF_GameCenterViewControllerDidAppear = @"NTF_GameCenterViewControllerDidAppear";
+NSString *const NTF_GameCenterViewControllerDidDisappear = @"NTF_GameCenterViewControllerDidDisappear";
+
+
+
 @implementation JHGameKitHelper
 {
     BOOL _enableGameCenter;

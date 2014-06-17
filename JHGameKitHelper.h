@@ -9,6 +9,10 @@
 #import <Foundation/Foundation.h>
 @import GameKit;
 
+UIKIT_EXTERN NSString *const NTF_PresentAuthenticationViewController;
+UIKIT_EXTERN NSString *const NTF_GameCenterViewControllerDidAppear;
+UIKIT_EXTERN NSString *const NTF_GameCenterViewControllerDidDisappear;
+
 @interface JHGameKitHelper : NSObject <GKGameCenterControllerDelegate>
 @property (nonatomic, strong, readonly) UIViewController *authViewController;
 @property (nonatomic, strong, readonly) NSError *lastError;
